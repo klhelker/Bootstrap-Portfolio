@@ -1,16 +1,29 @@
 body{
-    
-    background-image: url("../../Basic-Portfolio/assets/images/embossed-diamond.png");
+    min-height: 75rem;
+    padding-top: 4.5rem;
+    background-image: url("./assets/images/embossed-diamond.png");
   }
-   
-header{
+
+.navbar-header{
     background-color: #7ebca5;
     color: white;
     font-family: Georgia, Times, 'Times New Roman', serif;
 }
 .container {
     background: white
-    
-        
-            }
-            
+}
+
+.image-fluid {
+
+      width: 500px;
+      height: 300px;
+}
+
+.portfolio-container img{
+    width: 500px;
+    height: 300px;
+}
+.row 
+{
+    margin-top: 25px; 
+}
